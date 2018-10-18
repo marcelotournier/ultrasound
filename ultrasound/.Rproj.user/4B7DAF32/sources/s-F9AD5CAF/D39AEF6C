@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539809013335.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2761178235",
+    "id" : "D39AEF6C",
+    "lastKnownWriteTime" : 1539874122,
+    "last_content_update" : 1539874122184,
+    "path" : "~/R/ultrasound/ultrasound.R",
+    "project_path" : "ultrasound.R",
+    "properties" : {
+        "cursorPosition" : "75,65",
+        "scrollLine" : "66"
+    },
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}

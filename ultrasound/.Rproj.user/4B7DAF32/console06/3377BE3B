@@ -1,0 +1,84 @@
+]0;~/R/ultrasound[?1034hMT-MacBookAir:ultrasound mac15$ ls[K[Kcd R
+bash: cd: R: No such file or directory
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ cd
+]0;~MT-MacBookAir:~ mac15$ cd
+]0;~MT-MacBookAir:~ mac15$ dir[K[K[Kk[Kls
+Applications			Movies				anaconda3
+Applications (Parallels)	Music				iCloud Drive (Arquivo)
+Desktop				Pictures			ionicapp
+Documents			Public				js-curso
+Downloads			Python				mindset
+Google Drive			R
+Library				ROMS
+]0;~MT-MacBookAir:~ mac15$ cd R
+]0;~/RMT-MacBookAir:R mac15$ ls
+obesity2017	ultrasound
+]0;~/RMT-MacBookAir:R mac15$ cd ultrasound/
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ ls
+ultrasound.R		ultrasound.Rproj
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ remote add origin https://github.com/marcelotournier/ultrasound.git
+bash: remote: command not found
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ git remote add origin https://github.com/marcelotournier/ultrasound. git
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ git put[Ksh -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/marcelotournier/ultrasound.git'
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ ls
+ultrasound.R		ultrasound.Rproj
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ lsgit push -u origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 2.36 KiB | 0 bytes/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/marcelotournier/ultrasound/pull/new/master[K
+remote: 
+To https://github.com/marcelotournier/ultrasound.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/R/ultrasoundMT-MacBookAir:ultrasound mac15$ 

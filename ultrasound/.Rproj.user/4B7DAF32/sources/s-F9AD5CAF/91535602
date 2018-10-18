@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539822909863.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "91535602",
+    "lastKnownWriteTime" : -586793630866614197,
+    "last_content_update" : 1539822909863,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "fd9ed76cc8094aa6b2d29b4414faefff",
+        "name" : "tbls_ls2",
+        "title" : "tbls_ls2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}
